@@ -41,6 +41,29 @@
         .btn:hover {
             background-color: #45a049;
         }
+
+        fieldset{
+            border: 3px solid #45a049;
+            background-color: rgba(205, 233, 218, 0.823);
+            border-radius: 7px;
+            right: 50px;
+            width: 30px;
+        }
+
+        label{
+            display: inline-block;
+            width: 200px;
+            text-align: right;
+            padding: 4px;
+        }
+
+        legend{
+            border: 2px solid #45a049;
+            background-color: #45a049;
+            border-radius: 7px;
+        }
+
+
     </style>
 </head>
 <body>
@@ -66,7 +89,32 @@
     </section>
 
     <button class="btn">Clique aqui para aprender mais!</button>
+
+    <br><br><br>
+
+    <fieldset>
+        <legend>Matérias técnicas: </legend>
+        <label for="fradio">DevOps</label>
+        <input type="radio" name="fradio" id="fradio", checked>
+        <br>
+        <label for="fradio">Desenvolvimento 2</label>
+        <input type="radio" name="fradio" id="fradio">
+        <br>
+        <label for="fradio">Mobile</label>
+        <input type="radio" name="fradio" id="fradio">
+        <br>
+        <label for="fradio">Banco de dados 2</label>
+        <input type="radio" name="fradio" id="fradio">
+        <br>
+        <label for="fradio">Engenharia de software</label>
+        <input type="radio" name="fradio" id="fradio">
+    </fieldset>
+
+
+
 </main>
+
+<br><br><br><br>
 
 <footer>
     <p>&copy; 2025 Projeto GitHub PR - Todos os direitos reservados.</p>
